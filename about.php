@@ -36,7 +36,7 @@
  <section class="about_achievements">
     <div class="container about_achievements-container">
         <div class="about_achievements-left">
-            <img src="../student managment/image/achivement.svg" alt="Achievements">
+            <img src="../student managment/image/achivement2.png" alt="Achievements">
         </div>
         
         <div class="about_achievements-right">

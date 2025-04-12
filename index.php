@@ -50,7 +50,7 @@
             </div>
             <div class="header_right">
                 <div class="header_right-image">
-                    <img src="../student managment/image/home.svg" alt="">
+                    <img src="../student managment/image/home2.png" alt="">
                 </div>
             </div>
         </div>

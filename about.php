@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"></head>
-    <link rel="stylesheet" href="../student managment/style.css">  
-    <link rel="stylesheet" href="../student managment/css/about.css">  
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="css/about.css">  
 
 </head>
 <body>
@@ -36,7 +36,7 @@
  <section class="about_achievements">
     <div class="container about_achievements-container">
         <div class="about_achievements-left">
-            <img src="../student managment/image/achivement2.png" alt="Achievements">
+            <img src="image/achivement2.png" alt="Achievements">
         </div>
         
         <div class="about_achievements-right">
@@ -79,7 +79,7 @@
     <div class="container team_container">
         <article class="team_member">
             <div class="team_membet-imge">
-            <img src="../student managment/image/women.jpg" alt="">
+            <img src="image/women.jpg" alt="">
         </div>
         <div class="team_member-info">
             <h4>Mobina Bayatie</h4>
@@ -94,7 +94,7 @@
         </article>
         <article class="team_member">
             <div class="team_membet-imge">
-            <img src="../student managment/image/women4.jpg" alt="">
+            <img src="image/women4.jpg" alt="">
         </div>
         <div class="team_member-info">
             <h4>Dina Bayatie</h4>
@@ -109,7 +109,7 @@
         </article>
         <article class="team_member">
             <div class="team_membet-imge">
-            <img src="../student managment/image/women2.jpg" alt="">
+            <img src="image/women2.jpg" alt="">
         </div>
         <div class="team_member-info">
             <h4>Azam Rezaie</h4>
@@ -124,7 +124,7 @@
         </article>
         <article class="team_member">
             <div class="team_membet-imge">
-            <img src="../student managment/image/women3.jpg" alt="">
+            <img src="image/women3.jpg" alt="">
         </div>
         <div class="team_member-info">
             <h4>Fateme Sohrabi</h4>
@@ -139,7 +139,7 @@
         </article>
         <article class="team_member">
             <div class="team_membet-imge">
-            <img src="../student managment/image/man1.jpg" alt="">
+            <img src="image/man1.jpg" alt="">
         </div>
         <div class="team_member-info">
             <h4>Amir Aghayee</h4>
@@ -154,7 +154,7 @@
         </article>
         <article class="team_member">
             <div class="team_membet-imge">
-            <img src="../student managment/image/man2.jpg" alt="">
+            <img src="image/man2.jpg" alt="">
         </div>
         <div class="team_member-info">
             <h4>Mosafa Portash</h4>
@@ -169,7 +169,7 @@
         </article>
         <article class="team_member">
             <div class="team_membet-imge">
-            <img src="../student managment/image/man3.jpg" alt="">
+            <img src="image/man3.jpg" alt="">
         </div>
         <div class="team_member-info">
             <h4>Sepehr khorsand</h4>
@@ -184,7 +184,7 @@
         </article>
         <article class="team_member">
             <div class="team_membet-imge">
-            <img src="../student managment/image/man4.jpg" alt="">
+            <img src="image/man4.jpg" alt="">
         </div>
         <div class="team_member-info">
             <h4>Ali Beyranvand</h4>

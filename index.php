@@ -16,7 +16,7 @@
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     
-    <link rel="stylesheet" href="../student managment/style.css">    
+    <link rel="stylesheet" href="style.css">    
 
 <body>
     <nav>
@@ -50,7 +50,7 @@
             </div>
             <div class="header_right">
                 <div class="header_right-image">
-                    <img src="../student managment/image/home2.png" alt="">
+                    <img src="image/home2.png" alt="">
                 </div>
             </div>
         </div>

@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../student managment/style.css">  
-    <link rel="stylesheet" href="../student managment/contact.css">
+    <link rel="stylesheet" href="style.css">  
+    <link rel="stylesheet" href="contact.css">
     <style>
         html, body {
             margin: 0;
@@ -93,7 +93,7 @@
         <div class="container contact_container">
             <aside class="contact_aside">
                 <div class="aside_img">
-                    <img src="../student managment/image/contact.png" alt="Contact Image">
+                    <img src="image/contact.png" alt="Contact Image">
                 </div>
                 <h2>Contact Us</h2>
                 <p>

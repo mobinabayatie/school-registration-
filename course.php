@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"></head>
-    <link rel="stylesheet" href="../student managment/style.css">  
+    <link rel="stylesheet" href="style.css">  
      <style>
         .courses{
             margin-top: 1rem;
@@ -55,7 +55,7 @@
 
             <article class="course">
                 <div class="course_image">
-                    <img src="../student managment/image/webapp.jpg" alt="">
+                    <img src="image/webapp.jpg" alt="">
                 </div>
                <div class="course_info">
                 <h4>Creating Web Apps</h4>
@@ -68,7 +68,7 @@
 
              <article class="course">
                 <div class="course_image">
-                    <img src="./image/uiux.png" alt="">
+                    <img src="image/uiux.png" alt="">
                 </div>
                 <div class="course_info">
                     <h4>UI/UX Design</h4>

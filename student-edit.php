@@ -1,5 +1,6 @@
 <?php 
   session_start();
+  require 'database.php';
 
 ?>
 <!Doctype html>
@@ -13,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"></head>
     <link rel="stylesheet" href="style.css">  
 
-    <title>Register</title>
+    <title>Student Edit </title>
    <style>
 body {
     display: flex;
@@ -140,6 +141,20 @@ footer {
 
                         </div>
                         <div class="card-body">
+                        <?php 
+                                if(isset($_POST['id'])){
+                                    $student_id = mysqli_real_escape_string($con, $_POST['id']);
+                                    $query = "SELECT * FROM students WHERE id='$student_id'"; 
+                                    $query_run = mysqli_query($con, $query);
+
+                                    if(mysqli_num_rows($query_run) > 0){ 
+                                        $student = mysqli_fetch_array($query_run);
+                                    }
+                                    else{
+                                        echo "<h4>No Such ID Found</h4>";
+                                    }
+                                }
+?>
                             <form action="student.php" method="POST">
                                 <div class="mb-3">
                                     <label for="student_name">Student Name</label>
@@ -158,7 +173,7 @@ footer {
                                     <input type="text" name="student_course" class="form-control" id="student_course">
                                 </div>
                                 <div class="mb-3">
-                                    <button type="submit" name="save_student" class="btn btn-primary">Save</button>
+                                    <button type="submit" name="save_student" class="btn btn-primary">Update Student</button>
                                 </div>
                             </form>
                         </div>
